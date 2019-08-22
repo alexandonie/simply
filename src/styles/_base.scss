@@ -1,0 +1,13 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: $black;
+
+  // making sure the fonts will render the same across different web browsers
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  background: $white;
+}
