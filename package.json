@@ -1,0 +1,23 @@
+{
+  "name": "simply",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple portfolio template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandonie/simply.git"
+  },
+  "author": "Alex Andonie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandonie/simply/issues"
+  },
+  "homepage": "https://github.com/alexandonie/simply#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}
