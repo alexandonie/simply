@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/alexandonie/simply#readme",
   "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "parcel-bundler": "^1.12.3",
     "sass": "^1.22.10"
   },
-  "dependencies": {
-    "eslint": "^6.2.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2"
-  }
+  "dependencies": {}
 }
