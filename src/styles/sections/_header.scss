@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+  &__logo {
+    display: block;
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 60px;
+    }
+  }
+
+  &__menu-button {
+    $button-side-padding: 7px;
+
+    padding: 9px $button-side-padding;
+    margin-right: -$button-side-padding;
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 16px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media (min-width: $tablet) {
+  .header {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .header {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+}
