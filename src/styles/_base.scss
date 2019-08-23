@@ -22,6 +22,10 @@ p {
 
   font-size: 1rem;
   line-height: 160%;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 a {

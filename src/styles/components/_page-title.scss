@@ -1,11 +1,11 @@
 .page-title {
-  padding-bottom: 112px;
+  padding-bottom: 48px;
 }
 
 @media (min-width: $tablet) {
   .page-title {
     max-width: 570px;
-    padding-bottom: 144px;
+    padding-bottom: 56px;
 
     &--focused {
       max-width: 535px;
@@ -17,8 +17,7 @@
 @media (min-width: $desktop) {
   .page-title {
     max-width: 730px;
-    padding-top: 35px;
-    padding-bottom: 240px;
+    padding-bottom: 152px;
 
     &--focused {
       max-width: 730px;

@@ -1,6 +1,6 @@
 .footer {
   margin: 0 auto;
-  padding: 120px 30px 64px;
+  padding: 96px 30px 64px;
   box-sizing: border-box;
   text-align: center;
 
@@ -29,7 +29,7 @@
 
 @media (min-width: $tablet) {
   .footer {
-    padding-top: 184px;
+    padding-top: 64px;
     padding-bottom: 80px;
 
     &__links {
@@ -40,7 +40,7 @@
 
 @media (min-width: $desktop) {
   .footer {
-    padding-top: 240px;
+    padding-top: 208px;
     padding-bottom: 96px;
   }
 }

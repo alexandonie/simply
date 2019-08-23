@@ -2,15 +2,15 @@
 @import 'vars';
 @import 'base';
 
+@import 'utilities/containers';
+
 @import
   'components/header',
   'components/page-title',
-  'components/showcase',
   'components/article',
-  'components/media',
   'components/footer';
 
 @import
   'utilities/affordance',
-  'utilities/containers',
+  'utilities/hover',
   'utilities/sizing';
