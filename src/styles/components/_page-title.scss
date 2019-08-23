@@ -1,5 +1,4 @@
 .page-title {
-  padding-top: 8px;
   padding-bottom: 112px;
 }
 
@@ -18,7 +17,7 @@
 @media (min-width: $desktop) {
   .page-title {
     max-width: 730px;
-    padding-top: 40px;
+    padding-top: 35px;
     padding-bottom: 240px;
 
     &--focused {
