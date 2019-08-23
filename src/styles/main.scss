@@ -4,15 +4,15 @@
 @import 'helpers';
 
 @import
-  'components/container',
   'components/section',
   'components/header',
   'components/button',
   'components/page-title',
-  'components/grid-container',
   'components/showcase',
   'components/article',
   'components/media',
   'components/footer';
 
-@import 'utilities/sizing';
+@import
+  'utilities/sizing',
+  'utilities/containers';
