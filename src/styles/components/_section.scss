@@ -1,6 +1,14 @@
 .section {
   padding: 0 30px;
   box-sizing: border-box;
+
+  &--spaced {
+    padding-bottom: 64px;
+
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+  }
 }
 
 @media (min-width: $tablet) {
@@ -22,6 +30,10 @@
       align-items: center;
       justify-content: center;
     }
+
+    &--spaced {
+      padding-bottom: 88px;
+    }
   }
 }
 
@@ -37,6 +49,10 @@
 
     &--wide {
       max-width: 1140px;
+    }
+
+    &--spaced {
+      padding-bottom: 128px;
     }
   }
 }
