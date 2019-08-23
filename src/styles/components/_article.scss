@@ -1,0 +1,46 @@
+$translate-y-value: -12px;
+
+.article {
+  display: block;
+
+  transform: translateY(0);
+  transition: transform 0.15s linear;
+  will-change: transform;
+
+  &:hover {
+    position: relative;
+    transform: translateY($translate-y-value);
+
+    &:after {
+      content: '';
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: $translate-y-value;
+      width: 100%;
+
+      z-index: -1;
+    }
+  }
+
+  a {
+    color: $black;
+  }
+
+  &__image {
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  &__title {
+    margin-bottom: 8px;
+    font-weight: 700;
+  }
+
+  &__excerpt {
+    margin: 0;
+    line-height: 150%;
+  }
+}

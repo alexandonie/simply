@@ -14,7 +14,6 @@
       <a href="/" title="home page" class="header__logo">
         <img src="./images/logo.svg" alt="Simply">
       </a>
-
       <button type="button" class="btn header__menu-button">
         <span class="sr-only">Open navigation menu</span>
         <img src="./images/icon-menu.svg" alt="">
@@ -29,7 +28,7 @@
     </section>
 
     <section class="section section--wide">
-      <ul class="showcase">
+      <ul class="showcase grid-container">
         <li>
           <a href="/showcase" title="Project title 1" class="showcase__content">
             <img src="./images/project-1.jpg" alt="Project 1 preview">
@@ -72,6 +71,44 @@
       </p>
     </section>
 
+    <section class="section section--wide section--spaced">
+      <ul class="grid-container">
+        <li>
+          <article class="article">
+              <a href="/article">
+                <img src="./images/article-1.jpg" alt="People in a meeting room" class="article__image">
+                <h4 class="article__title">Experience</h4>
+              </a>
+              <p class="article__excerpt">
+                Nullam at nisl in enim mollis tempus sit amet a diam sit amet neque bibendum...
+              </p>
+            </article>
+        </li>
+        <li>
+          <article class="article">
+              <a href="/article">
+                <img src="./images/article-2.jpg" alt="UI sketches" class="article__image">
+                <h4 class="article__title">My design process</h4>
+              </a>
+              <p class="article__excerpt">
+                Donec rutrum augue et nulla tristique, at ultricies sem imperdiet am bibendum...
+              </p>
+            </article>
+        </li>
+        <li>
+          <article class="article">
+              <a href="/article">
+                <img src="./images/article-3.jpg" alt="Designer desk" class="article__image">
+                <h4 class="article__title">Workspace & setup</h4>
+              </a>
+              <p class="article__excerpt">
+                Experiments that involve the intersection of many different hardware and software mediums...
+              </p>
+            </article>
+        </li>
+      </ul>
+    </section>
+
     <footer class="footer">
       <ul class="footer__links">
         <li><a href="#">linkedin</a></li>
@@ -80,7 +117,6 @@
         <li><a href="#">dribbble</a></li>
         <li><a href="#">resume</a></li>
       </ul>
-
       <p class="footer__copy">Simply 2019. All rights reserved.</p>
     </footer>
   </div> <!-- end of container -->
