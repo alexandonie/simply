@@ -1,7 +1,6 @@
 @import 'reset';
 @import 'vars';
 @import 'base';
-@import 'helpers';
 
 @import
   'components/header',
@@ -13,5 +12,6 @@
   'components/footer';
 
 @import
-  'utilities/sizing',
-  'utilities/containers';
+  'utilities/affordance',
+  'utilities/containers',
+  'utilities/sizing';
