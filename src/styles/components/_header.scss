@@ -5,12 +5,16 @@
   padding-top: 64px;
   padding-bottom: 64px;
 
+  &__logo img,
+  &__menu-button img {
+    display: block;
+    width: 100%;
+  }
+
   &__logo {
     display: block;
 
     img {
-      display: block;
-      width: 100%;
       max-width: 60px;
     }
   }
@@ -22,8 +26,6 @@
     margin-right: -$button-side-padding;
 
     img {
-      display: block;
-      width: 100%;
       max-width: 16px;
       margin: 0 auto;
     }
