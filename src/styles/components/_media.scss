@@ -1,0 +1,18 @@
+.media {
+  &__image {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (min-width: $tablet) {
+  .media {
+    padding-top: 24px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .media {
+    padding-top: 48px;
+  }
+}
