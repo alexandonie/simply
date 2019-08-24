@@ -1,0 +1,13 @@
+.horizontal-space-between,
+.vertical-space-between {
+  display: flex;
+  justify-content: space-between;
+
+  & > div {
+    margin-bottom: 24px;
+  }
+}
+
+.vertical-space-between {
+  flex-direction: column;
+}
