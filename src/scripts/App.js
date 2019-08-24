@@ -1,6 +1,10 @@
+import Navigation from './Navigation';
+
 class App {
   static init () {
-    console.log('Start the application!');
+    const nav = new Navigation();
+
+    nav.init();
   }
 }
 

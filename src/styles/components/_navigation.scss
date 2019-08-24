@@ -1,0 +1,66 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 80%;
+  max-width: 527px;
+  padding: 84px 0;
+  box-sizing: border-box;
+
+  font-size: 1.125rem;
+  text-align: right;
+
+  background: $white;
+  opacity: 0.7;
+  z-index: 2;
+
+  transform: translateX(100%);
+  transition: transform 0.20s linear, opacity 0.30s linear;
+
+  a {
+    display: block;
+    padding: 16px 32% 16px 0;
+    color: $black;
+  }
+
+  &__close {
+    $padding: 9px;
+
+    margin: 0 calc(32% - #{$padding}) 40px;
+    padding: $padding;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+
+    img {
+      display: block;
+      width: 100%;
+      max-width: 14px;
+    }
+  }
+}
+
+.navigation-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background: $black;
+  opacity: 0;
+  z-index: 1;
+
+  transition: opacity 0.30s linear;
+}
+
+.navigation--open {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.navigation--open + .navigation-backdrop {
+  opacity: 0.5;
+}

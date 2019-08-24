@@ -9,3 +9,8 @@
   clip-path: inset(50%);
   border: 0;
 }
+
+.scroll-disabled {
+  height: 100%;
+  overflow: hidden;
+}
