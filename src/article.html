@@ -14,11 +14,35 @@
       <a href="/" title="home page" class="header__logo">
         <img src="./images/logo.svg" alt="Simply">
       </a>
-      <button type="button" class="btn header__menu-button">
+      <button type="button" class="btn header__menu-button" data-toggle="navigation">
         <span class="sr-only">Open navigation menu</span>
         <img src="./images/icon-menu.svg" alt="">
       </button>
     </header>
+
+    <nav class="navigation" id="main-navigation">
+      <button type="button" class="navigation__close" data-toggle="navigation">
+        <span class="sr-only">Close navigation menu</span>
+        <img src="./images/icon-close.svg" alt="">
+      </button>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/article">About</a>
+        </li>
+        <li>
+          <a href="/article">Experience</a>
+        </li>
+        <li>
+          <a href="/article">Work</a>
+        </li>
+        <li>
+          <a href="/article">Process</a>
+        </li>
+      </ul>
+    </nav>
 
     <section class="section-container section-container--centered-content">
       <h1 class="page-title page-title--focused">
