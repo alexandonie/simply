@@ -1,19 +1,18 @@
 @media (min-width: $desktop) {
-  .hover-scale-up {
+  .on-hover-scale-up {
     display: block;
     text-decoration: none;
     color: $black;
 
     transform: scale(1);
     transition: transform 0.15s linear;
-    will-change: transform;
 
     &:hover {
       transform: scale(1.05);
     }
 
     > * {
-      transform: translateZ(0);
+      will-change: transform;
     }
   }
 }
