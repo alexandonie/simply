@@ -21,14 +21,13 @@
 
 @media (min-width: $tablet) {
   .masonry {
+    // vertical span
     &__item--v2 { grid-row: span 2; }
     &__item--v3 { grid-row: span 3; }
-    &__item--v4 { grid-row: span 4; }
 
+    // horizontal span
     &__item--h2 { grid-column: span 2; }
     &__item--h3 { grid-column: span 3; }
-    &__item--h4 { grid-column: span 4; }
-
     &__item:last-child:nth-child(odd) { grid-column: span 1; }
   }
 }
