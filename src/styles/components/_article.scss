@@ -5,7 +5,6 @@ $translate-y-value: -12px;
 
   transform: translateY(0);
   transition: transform 0.15s linear;
-  will-change: transform;
 
   &:hover {
     position: relative;
