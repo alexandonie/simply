@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf dist/*",
-    "dev": "parcel src/index.html",
-    "build": "npm run clean && parcel build src/index.html --no-source-maps"
+    "dev": "npm run clean && parcel src/*.html",
+    "build": "npm run clean && parcel build src/*.html --no-source-maps"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,5 @@
     "eslint-plugin-import": "^2.18.2",
     "parcel-bundler": "^1.12.3",
     "sass": "^1.22.10"
-  },
-  "dependencies": {}
+  }
 }
