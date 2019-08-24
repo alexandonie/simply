@@ -9,6 +9,18 @@
   grid-gap: 30px;
 }
 
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: -16px;
+
+  > * {
+    margin: 16px;
+  }
+}
+
 @media (min-width: $tablet) {
   .container {
     max-width: 78%;
@@ -35,6 +47,10 @@
       align-items: center;
       justify-content: center;
     }
+
+    // zero padding helpers
+    &--pt-0 { padding-top: 0; }
+    &--pb-0 { padding-bottom: 0; }
   }
 }
 
@@ -45,7 +61,7 @@
 
     &--narrow {
       width: 100%;
-      max-width: 730px;
+      max-width: 790px;
     }
 
     &--wide {
