@@ -2,12 +2,11 @@
   "name": "simply",
   "version": "1.0.0",
   "private": true,
-  "description": "A simple portfolio template",
+  "description": "Simply - a simple portoflio template",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf dist/*",
-    "dev": "npm run clean && parcel src/*.html",
-    "build": "npm run clean && parcel build src/*.html --no-source-maps"
+    "dev": "webpack-dev-server --config ./config/webpack.dev.js",
+    "build": "webpack --config ./config/webpack.prod.js"
   },
   "repository": {
     "type": "git",
@@ -20,11 +19,32 @@
   },
   "homepage": "https://github.com/alexandonie/simply#readme",
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
     "autoprefixer": "^9.6.1",
-    "eslint": "^6.2.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "parcel-bundler": "^1.12.3",
-    "sass": "^1.22.10"
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.1.0",
+    "eslint": "^6.1.0",
+    "eslint-loader": "^2.2.1",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^4.1.0",
+    "handlebars": "^4.1.2",
+    "handlebars-loader": "^1.7.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "purgecss-webpack-plugin": "^1.5.0",
+    "resolve-url-loader": "^3.1.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
   }
 }
